@@ -1,0 +1,16 @@
+Certainly! Let's break down the code step by step:
+
+1. **`is_safe` function**: This function checks whether placing a queen at a particular position `(row, col)` on the chessboard is safe or not. It checks for three conditions:
+   - No other queen exists in the same column.
+   - No other queen exists in the upper left diagonal.
+   - No other queen exists in the upper right diagonal.
+
+2. **`solve_n_queens_util` function**: This is a recursive helper function that tries to solve the n-queens problem. It takes the current state of the board, the current row being considered, and the total number of rows (`n`) as arguments. It tries to place a queen in each column of the current row and recursively calls itself for the next row if the placement is safe. If a solution is found, it returns `True`; otherwise, it backtracks and tries another column.
+
+3. **`solve_n_queens` function**: This is the main function that initializes the chessboard and starts the backtracking process by calling `solve_n_queens_util` with the initial parameters.
+
+4. **`print_board` function**: This function prints the current state of the chessboard.
+
+5. **Example usage**: It demonstrates how to use the `solve_n_queens` function to solve the n-queens problem for a specific value of `n`.
+
+Overall, the backtracking algorithm works by systematically placing queens on the chessboard, checking if the placement is safe, and recursively exploring all possible configurations until a solution is found or all possibilities are exhausted. If a solution is found, it prints each step of the solution. If no solution exists, it prints a message indicating that.

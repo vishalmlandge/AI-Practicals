@@ -1,0 +1,23 @@
+{
+    "restaurants": 
+    [
+        {
+        "branch_name": "Scaneat Downtown",
+        "contact_no": "+1 (555) 123-4567",
+        "email": "downtown@scaneat.com",
+        "address": "123 Main Street, Downtown, City, State, ZIP"
+        },
+        {
+        "branch_name": "Scaneat Heights",
+        "contact_no": "+1 (555) 987-6543",
+        "email": "heights@scaneat.com",
+        "address": "456 Hill Avenue, Heights, City, State, ZIP"
+        },
+        {
+        "branch_name": "Scaneat Lakeside",
+        "contact_no": "+1 (555) 789-0123",
+        "email": "lakeside@scaneat.com",
+        "address": "789 Lakeview Drive, Lakeside, City, State, ZIP"
+        }
+    ]
+}
